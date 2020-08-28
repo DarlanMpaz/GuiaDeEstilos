@@ -1,0 +1,38 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+
+body {
+    background: url('../../img/background.png'), url('../../img/linhas.svg');
+    font-family: var(--fonte--corpo);
+    font-size: var(--tamanho--corpo);
+    color: var(--cinza);
+}
+
+.container {
+    padding: 0 1rem 0;
+}
+
+.titulo {
+    font-size: var(--tamanho--titulo);
+}
+
+.titulo--destaque {
+    font-family: var(--fonte--titulo--destaque);
+    color: var(--preto);
+    font-size: var(--tamanho--titulo--destaque);
+    font-weight: var(--peso-titulo-destaque);
+    display: block;
+    margin: .75rem 0;
+}
+
+.alinhamento--esquerda {
+    text-align: left;
+}
+
+.alinhamento--meio {
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px;
+}

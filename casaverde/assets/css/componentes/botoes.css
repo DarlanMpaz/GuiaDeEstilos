@@ -1,0 +1,25 @@
+.botao {
+    background: var(--amarelo);
+    font-family: inherit;
+    font-weight: var(--peso--botao);
+    text-align: center;
+    color: var(--branco);
+    cursor: pointer;
+    width: 100%;
+    padding: 1rem 0 1rem;
+    border: none;
+    box-shadow: 10px 10px 30px var(--amarelo--transparente);
+    transition: 100ms;
+}
+
+.botao:hover {
+    background: var(--amarelo--hover);
+    color: var(--branco);
+}
+
+.botao--alternativo {
+    background: unset;
+    color: var(--amarelo);
+    border: 1px solid var(--amarelo);
+    box-shadow: none;
+}
